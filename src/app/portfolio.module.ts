@@ -7,14 +7,15 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
-import { MatCardModule } from '@angular/material/card';
 import { HomeModule } from './pages/home/home.module';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
     declarations: [
         AppComponent
     ],
     imports: [
+        CoreModule,
         BrowserModule,
         AppRoutingModule,
         ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),

@@ -1,0 +1,13 @@
+<header>
+  <mat-icon>cake</mat-icon>
+  <!-- <h2 class="mat-title">Samuel Hinkhouse</h2> -->
+  <div fxFlex></div>
+  <nav>
+    <ul>
+      <li *ngFor="let navItem of navigation">
+        <a class="mat-subheading-1" [href]="navItem.link">{{navItem.name}}</a>
+      </li>
+    </ul>
+  </nav>
+  <button mat-stroked-button>Resume</button>
+</header>
