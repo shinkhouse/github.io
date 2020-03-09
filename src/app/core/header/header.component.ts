@@ -1,35 +1,35 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'shi-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+    selector: 'shi-header',
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+    constructor() { }
 
-  public navigation: any[];
+    public navigation: any[];
 
-  ngOnInit(): void {
-      this.navigation = [
-          {
-              name: 'About',
-              link: '#about'
-          },
-          {
-            name: 'Experience',
-            link: '#experience'
-        },
-        {
-            name: 'About',
-            link: '#work'
-        },
-        {
-            name: 'Contact',
-            link: '#contact'
-        }
-      ];
-  }
+    ngOnInit(): void {
+        this.navigation = [
+            {
+                name: 'About',
+                link: '#about'
+            },
+            {
+                name: 'Experience',
+                link: '#experience'
+            },
+            {
+                name: 'Projects',
+                link: '#projects'
+            },
+            {
+                name: 'Contact',
+                link: '#contact'
+            }
+        ];
+    }
 
 }
