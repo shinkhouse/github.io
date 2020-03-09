@@ -1,0 +1,13 @@
+header {
+  & a {
+    color: black;
+
+    &:hover {
+      color: black;
+    }
+
+    & mat-icon.mat-icon {
+        padding: 0px 4px;
+    }
+  }
+}
