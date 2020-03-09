@@ -1,0 +1,30 @@
+section {
+  margin: 0 8px 16px;
+
+  div {
+    max-width: 750px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    overflow: hidden;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    list-style: none;
+
+    & li {
+        margin-bottom: 8px;
+
+        &:before {
+            content: "⮞";
+            padding-right: 8px;
+            font-size: 16px;
+          }
+    }
+  }
+}
