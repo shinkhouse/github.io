@@ -1,4 +1,7 @@
-
+@import "../modules/theme";
+@import '~@angular/material/theming';
+@include mat-core();
+@include angular-material-theme($shi-theme-light);
 
 /* You can add global styles to this file, and also import other style files */
 html,
