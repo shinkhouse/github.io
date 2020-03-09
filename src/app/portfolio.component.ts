@@ -13,6 +13,9 @@ export class AppComponent implements OnInit {
         private sanitizer: DomSanitizer,
     ) {
         iconRegistry.addSvgIcon(
+            'portfolio-logo',
+            sanitizer.bypassSecurityTrustResourceUrl(`assets/icons/portfolio-logo.svg`));
+        iconRegistry.addSvgIcon(
             'codepen',
             sanitizer.bypassSecurityTrustResourceUrl(`assets/icons/codepen.svg`));
         iconRegistry.addSvgIcon(

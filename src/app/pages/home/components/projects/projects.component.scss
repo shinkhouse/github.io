@@ -1,5 +1,11 @@
-.projects {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    display: grid;
-    position: relative;
+section {
+    h1 {
+        margin: 0 8px 16px;
+    }
+
+    .projects {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        display: grid;
+        position: relative;
+    }
 }
