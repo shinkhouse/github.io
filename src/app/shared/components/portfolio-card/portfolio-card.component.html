@@ -1,0 +1,11 @@
+<mat-card class="flat">
+    <header>
+        <mat-icon>folder</mat-icon>
+        <div fxFlex></div>
+        <a [href]="project.url"><mat-icon svgIcon="github">link</mat-icon></a>
+        <a [href]="project.sourceCode"><mat-icon>launch</mat-icon></a>
+    </header>
+    <h2>{{project.name}}</h2>
+    <p class="mat-body">{{project.description}}</p>
+    
+</mat-card>

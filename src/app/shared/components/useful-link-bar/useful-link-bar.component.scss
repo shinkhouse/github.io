@@ -1,0 +1,39 @@
+div {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+  z-index: 10;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    margin: 32px auto 0px auto;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+    & a {
+      color: black;
+
+      &:hover {
+        color: black;
+      }
+
+      & mat-icon.mat-icon {
+        width: 24px;
+        height: 24px;
+        padding: 8px;
+      }
+    }
+
+
+  }
+}
