@@ -5,7 +5,7 @@
   <nav>
     <ul>
       <li *ngFor="let navItem of navigation">
-        <a class="mat-subheading-1" [href]="navItem.link">{{navItem.name}}</a>
+        <div (click)="scrollToHeader(navItem.link)">{{navItem.name}}</div>
       </li>
     </ul>
   </nav>

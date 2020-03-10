@@ -1,8 +1,17 @@
 <section>
-  <h1 id="projects">Development Projects</h1>
-  <div class="projects">
-    <div class="project" *ngFor="let project of projects">
-      <shi-portfolio-card [project]="project"></shi-portfolio-card>
+  <header>
+    <h1 id="projects">Development Projects</h1>
+    <div fxFlex></div>
+    <button mat-icon-button matTooltip="Show List">
+      <mat-icon>subject</mat-icon>
+    </button>
+  </header>
+  <div class="projects-container">
+    <div class="projects">
+      <div class="project" *ngFor="let project of projects">
+        <shi-portfolio-card [project]="project"></shi-portfolio-card>
+      </div>
     </div>
   </div>
+
 </section>

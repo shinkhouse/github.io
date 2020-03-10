@@ -23,7 +23,7 @@ export class ProjectsComponent implements OnInit {
                 name: 'Calculator',
                 description: 'I made this calculator as one of my first projects with JavaScript.',
                 url: 'https://www.samuelhinkhouse.me/JavaScript/calculator/',
-                sourceCode: '',
+                sourceCode: 'https://github.com/shinkhouse/calculator',
                 icon: 'github'
             },
             {

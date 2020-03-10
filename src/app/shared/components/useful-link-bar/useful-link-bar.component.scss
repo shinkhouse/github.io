@@ -59,3 +59,9 @@ div {
 
   }
 }
+
+@media  (max-width: 768px)  {
+    div {
+        display: none;
+    }
+}

@@ -1,6 +1,5 @@
 main {
   max-width: 1400px;
-  margin: 0 auto;
   padding: 0px 150px;
   margin: 0px auto;
 
@@ -11,8 +10,14 @@ main {
     justify-content: center;
     -webkit-box-align: center;
     flex-direction: column;
-    align-items: flex-start;
     margin: 0px auto;
     padding: 150px 0px;
   }
+}
+
+
+@media (max-width: 768px) {
+    main {
+        padding: 0px 40px;
+    }
 }

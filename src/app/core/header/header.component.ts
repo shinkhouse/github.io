@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
     selector: 'shi-header',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-    constructor() { }
+    constructor(private renderer: Renderer2) { }
 
     public navigation: any[];
 
@@ -15,21 +15,28 @@ export class HeaderComponent implements OnInit {
         this.navigation = [
             {
                 name: 'About',
-                link: '#about'
+                link: 'about'
             },
             {
                 name: 'Experience',
-                link: '#experience'
+                link: 'experience'
             },
             {
                 name: 'Projects',
-                link: '#projects'
+                link: 'projects'
             },
             {
                 name: 'Contact',
-                link: '#contact'
+                link: 'contact'
             }
         ];
+    }
+
+    scrollToHeader(element) {
+        const el = this.renderer.selectRootElement(`#${element}`, true);
+        const yOffset = -32;
+        const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({top: yCoordinate, behavior: 'smooth'});
     }
 
 }

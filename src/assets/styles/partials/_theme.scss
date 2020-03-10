@@ -4,9 +4,28 @@
 @include angular-material-theme($shi-theme-light);
 
 /* You can add global styles to this file, and also import other style files */
-*, ::before, ::after {
-    box-sizing: inherit;
+*,
+::before,
+::after {
+  box-sizing: inherit;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 html,
 body {
   height: 100%;
@@ -17,7 +36,9 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-.mat-h2, .mat-title, .mat-typography h2 {
-    padding: 0px;
-    margin: 16px 0px;
+.mat-h2,
+.mat-title,
+.mat-typography h2 {
+  padding: 0px;
+  margin: 16px 0px;
 }
