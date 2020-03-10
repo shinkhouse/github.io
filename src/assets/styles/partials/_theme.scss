@@ -4,6 +4,9 @@
 @include angular-material-theme($shi-theme-light);
 
 /* You can add global styles to this file, and also import other style files */
+*, ::before, ::after {
+    box-sizing: inherit;
+}
 html,
 body {
   height: 100%;
