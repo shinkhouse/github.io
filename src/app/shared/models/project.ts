@@ -3,5 +3,5 @@ export interface Project {
     sourceCode?: string;
     name: string;
     description: string;
-    icon?: string
+    icon?: string;
 }

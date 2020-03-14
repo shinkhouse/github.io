@@ -1,13 +1,13 @@
 header {
-  & a {
-    color: black;
+    & a {
+        color: var(--text-color-primary);
 
-    &:hover {
-      color: black;
-    }
+        &:hover {
+            color: var(--text-color-primary);
+        }
 
-    & mat-icon.mat-icon {
-      padding: 0px 4px;
+        & mat-icon.mat-icon {
+            padding: 0px 4px;
+        }
     }
-  }
 }

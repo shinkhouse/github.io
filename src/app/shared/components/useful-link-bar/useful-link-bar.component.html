@@ -1,9 +1,12 @@
 <div>
-  <ul>
-    <li *ngFor="let resource of resources">
-      <a [href]="resource.link">
-        <mat-icon [class]="resource.icon" [svgIcon]="resource.icon"></mat-icon>
-      </a>
-    </li>
-  </ul>
+    <ul>
+        <li *ngFor="let resource of resources">
+            <a [href]="resource.link">
+                <mat-icon
+                    [class]="resource.icon"
+                    [svgIcon]="resource.icon"
+                ></mat-icon>
+            </a>
+        </li>
+    </ul>
 </div>

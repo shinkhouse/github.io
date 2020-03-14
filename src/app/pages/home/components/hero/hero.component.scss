@@ -7,15 +7,37 @@ section {
         font-size: 48px;
         font-weight: 600;
         line-height: 48px;
+        color: var(--text-color-primary);
+    }
+    p {
+        color: var(--text-color-primary);
+
+        &.introduction {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 36px;
+        }
     }
 
-    p.introduction {
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 36px;
+    a {
+        & button {
+            color: var(--text-color-primary);
+        }
     }
-
     button {
         margin: 16px 0px;
+    }
+}
+
+@media (max-width: 450px) {
+    section {
+        h1 {
+            font-size: 24px;
+            line-height: 24px;
+        }
+        & p.introduction {
+            font-size: 14px;
+            line-height: 26px;
+        }
     }
 }

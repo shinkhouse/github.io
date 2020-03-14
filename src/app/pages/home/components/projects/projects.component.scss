@@ -1,4 +1,13 @@
 section {
+    h1 {
+        color: var(--text-color-primary);
+    }
+    button {
+        color: var(--text-color-primary);
+        mat-icon.mat-icon {
+            fill: var(--text-color-primary);
+        }
+    }
     .projects {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         display: grid;

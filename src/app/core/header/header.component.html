@@ -1,13 +1,15 @@
 <header>
-  <mat-icon svgIcon="portfolio-logo"></mat-icon>
-  <!-- <h2 class="mat-title">Samuel Hinkhouse</h2> -->
-  <div fxFlex></div>
-  <nav>
-    <ul>
-      <li *ngFor="let navItem of navigation">
-        <div (click)="scrollToHeader(navItem.link)">{{navItem.name}}</div>
-      </li>
-    </ul>
-  </nav>
-  <button mat-stroked-button>Resume</button>
+    <mat-icon svgIcon="portfolio-logo"></mat-icon>
+    <!-- <h2 class="mat-title">Samuel Hinkhouse</h2> -->
+    <div fxFlex></div>
+    <nav>
+        <ul>
+            <li *ngFor="let navItem of navigation">
+                <div (click)="scrollToHeader(navItem.link)">
+                    {{ navItem.name }}
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <button mat-stroked-button>Resume</button>
 </header>

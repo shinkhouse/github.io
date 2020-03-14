@@ -8,4 +8,4 @@ $shi-warn: mat-palette($mat-red);
 
 // Create the theme object (a Sass map containing all of the palettes).
 $shi-theme-light: mat-light-theme($shi-primary, $shi-accent, $shi-warn);
-$shi-theme-dark: mat-light-theme($shi-primary, $shi-accent, $shi-warn);
+$shi-theme-dark: mat-dark-theme($shi-primary, $shi-accent, $shi-warn);
