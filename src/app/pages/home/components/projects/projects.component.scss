@@ -7,10 +7,35 @@ section {
         mat-icon.mat-icon {
             fill: var(--text-color-primary);
         }
+        mat-icon[ng-reflect-svg-icon] svg {
+            width: 24px;
+            height: 24px;
+        }
+        mat-icon[ng-reflect-svg-icon] svg {
+    width: 24px;
+}
     }
     .projects {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         display: grid;
         position: relative;
+    }
+
+    .projects-table {
+        & table {
+            width: 100%;
+
+            th {
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media (max-width: 1070px) {
+    .projects-table {
+        .column-description {
+            display: none;
+        }
     }
 }

@@ -21,6 +21,9 @@ div {
         margin: 0px;
 
         & a {
+            mat-icon {
+                margin: 0px;
+            }
             color: var(--text-color-primary);
 
             &:hover {

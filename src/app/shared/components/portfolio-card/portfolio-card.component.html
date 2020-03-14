@@ -1,11 +1,11 @@
-<mat-card class="flat">
+<mat-card class="flat" fxFlex>
     <header>
         <mat-icon>folder</mat-icon>
         <div fxFlex></div>
         <a *ngIf="project.sourceCode" [href]="project.sourceCode"
-            ><mat-icon svgIcon="github">link</mat-icon></a
+            ><mat-icon [svgIcon]="project.icon">link</mat-icon></a
         >
-        <a [href]="project.url"><mat-icon>launch</mat-icon></a>
+        <a *ngIf="project.url" [href]="project.url"><mat-icon>launch</mat-icon></a>
     </header>
     <h2>{{ project.name }}</h2>
     <p class="mat-body">{{ project.description }}</p>
