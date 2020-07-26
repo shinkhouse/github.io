@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UsefulLinkBarComponent } from "./useful-link-bar.component";
+import { UsefulLinkBarComponent } from './useful-link-bar.component';
 
-describe("UsefulLinkBarComponent", () => {
+describe('UsefulLinkBarComponent', () => {
     let component: UsefulLinkBarComponent;
     let fixture: ComponentFixture<UsefulLinkBarComponent>;
 
@@ -18,7 +18,7 @@ describe("UsefulLinkBarComponent", () => {
         fixture.detectChanges();
     });
 
-    it("should create", () => {
+    it('should create', () => {
         expect(component).toBeTruthy();
     });
 });

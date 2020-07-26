@@ -25,9 +25,16 @@ section {
             color: var(--text-color-primary);
 
             &:before {
-                content: "⮞";
                 padding-right: 8px;
                 font-size: 16px;
+            }
+
+            mat-icon {
+                font-size: 20px;
+                height: 20px;
+                width: 20px;
+                line-height: 20px;
+                vertical-align: top;
             }
         }
     }

@@ -8,10 +8,14 @@ header {
     white-space: nowrap;
     height: 64px;
 
-    mat-icon:first-of-type {
+    mat-icon.portfolio-logo {
         margin: 0px 16px 0px 16px;
         width: 56px;
         height: 56px;
+        color: var(--text-color-primary);
+    }
+
+    mat-icon {
         color: var(--text-color-primary);
     }
 
@@ -48,6 +52,12 @@ header {
     button[mat-stroked-button] {
         margin-left: 8px;
         color: var(--text-color-primary);
+    }
+
+    .dark-mode-toggle {
+        & .mat-icon {
+            transform: rotate(135deg);
+        }
     }
 }
 
