@@ -1,0 +1,12 @@
+a {
+    color: var(--text-primary-color);
+    :hover {
+        color: var(--text-primary-color);
+    }
+    mat-icon {
+        margin-left: 8px;
+        &[ng-reflect-svg-icon] svg {
+            width: 24px;
+        }
+    }
+}

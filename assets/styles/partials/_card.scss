@@ -1,0 +1,13 @@
+mat-card.mat-card {
+    margin: 8px;
+    &.flat {
+        border: 1px solid var(--border-color);
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 680px) {
+    mat-card.mat-card {
+        margin: 8px 0px;
+    }
+}
