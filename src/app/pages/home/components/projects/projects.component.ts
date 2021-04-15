@@ -14,6 +14,15 @@ export class ProjectsComponent implements OnInit {
         this.showTable = false;
         this.projects = [
             {
+                name: 'Microsoft To Do Clone',
+                description:
+                    'Microsoft To Do application clone build in React',
+                url: 'https://shinkhouse.github.io/react-todo/',
+                sourceCode: 'https://github.com/shinkhouse/react-todo',
+                icon: 'github',
+                date: new Date('04/15/2021')
+            },
+            {
                 name: 'Giphy Search',
                 description:
                     'Angular based application to search for Gifs by keyword. Used Giphy API.',
