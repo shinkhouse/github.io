@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { PortfolioCardComponent } from './portfolio-card.component';
 
@@ -6,7 +6,7 @@ describe('PortfolioCardComponent', () => {
     let component: PortfolioCardComponent;
     let fixture: ComponentFixture<PortfolioCardComponent>;
 
-    beforeEach(async(() => {
+    beforeEach(waitForAsync(() => {
         TestBed.configureTestingModule({
             declarations: [PortfolioCardComponent]
         }).compileComponents();
