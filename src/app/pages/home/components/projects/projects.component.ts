@@ -17,7 +17,7 @@ export class ProjectsComponent implements OnInit {
                 name: 'Microsoft To Do Clone',
                 description:
                     'Microsoft To Do application clone build in React',
-                url: 'https://shinkhouse.github.io/react-todo/',
+                url: 'https://www.samuelhinkhouse.com/react-todo/',
                 sourceCode: 'https://github.com/shinkhouse/react-todo',
                 icon: 'github',
                 date: new Date('04/15/2021')
@@ -26,8 +26,8 @@ export class ProjectsComponent implements OnInit {
                 name: 'Giphy Search',
                 description:
                     'Angular based application to search for Gifs by keyword. Used Giphy API.',
-                url: 'https://www.samuelhinkhouse.me/giphy',
-                sourceCode: '',
+                url: 'https://www.samuelhinkhouse.com/giphy-v2/',
+                sourceCode: 'https://github.com/shinkhouse/giphy-v2',
                 icon: 'github',
                 date: new Date('1/1/2019')
             },
@@ -35,7 +35,7 @@ export class ProjectsComponent implements OnInit {
                 name: 'Calculator',
                 description:
                     'I made this calculator as one of my first projects with JavaScript.',
-                url: 'https://www.samuelhinkhouse.me/JavaScript/calculator/',
+                url: 'https://www.samuelhinkhouse.com/calculator/',
                 sourceCode: 'https://github.com/shinkhouse/calculator',
                 icon: 'github',
                 date: new Date('1/1/2017')
@@ -60,7 +60,7 @@ export class ProjectsComponent implements OnInit {
                 name: 'Portfolio v2',
                 description: 'The second iteration of my portfolio website.',
                 sourceCode: 'https://github.com/shinkhouse/portfolio-v2',
-                url: 'https://www.samuelhinkhouse.me/v2',
+                url: 'https://www.samuelhinkhouse.com/portfolio-v2',
                 icon: 'github',
                 date: new Date('6/1/2016')
             },
@@ -68,7 +68,7 @@ export class ProjectsComponent implements OnInit {
                 name: 'Portfolio v3',
                 description: 'The third iteration of my portfolio website.',
                 sourceCode: 'https://github.com/shinkhouse/portfolio-v3',
-                url: 'https://www.samuelhinkhouse.me/v3',
+                url: 'https://www.samuelhinkhouse.com/portfolio-v3',
                 icon: 'github',
                 date: new Date('9/1/2016')
             },
@@ -76,14 +76,14 @@ export class ProjectsComponent implements OnInit {
                 name: 'Portfolio v4',
                 description: 'The fourth iteration of my portfolio website.',
                 sourceCode: 'https://github.com/shinkhouse/portfolio-v4',
-                url: 'https://www.samuelhinkhouse.me/v4',
+                url: 'https://www.samuelhinkhouse.com/portfolio-v4',
                 icon: 'github',
                 date: new Date('1/1/2018')
             },
             {
                 name: 'Portfolio v6',
                 description: 'The sixth iteration of my portfolio website.',
-                url: 'https://www.samuelhinkhouse.me/v6',
+                url: 'https://www.samuelhinkhouse.com/portfolio-v6',
                 sourceCode: 'https://github.com/shinkhouse/portfolio-v6',
                 icon: 'github',
                 date: new Date('6/1/2019')
@@ -91,7 +91,7 @@ export class ProjectsComponent implements OnInit {
             {
                 name: 'Felt Message Board',
                 description: 'Inspired by my high school felt letter record board, I made this felt message generator.',
-                url: 'https://www.samuelhinkhouse.me/projects/feltmessageboard',
+                url: 'https://www.samuelhinkhouse.com/felt-message-board',
                 sourceCode: 'https://github.com/shinkhouse/felt-message-board',
                 icon: 'github',
                 date: new Date('1/1/2017')
