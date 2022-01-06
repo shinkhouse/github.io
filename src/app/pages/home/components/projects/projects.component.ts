@@ -14,31 +14,44 @@ export class ProjectsComponent implements OnInit {
         this.showTable = false;
         this.projects = [
             {
+                name: 'Fizzbuzz Contacts',
+                description: 'A simple Contacts web app inspired by Google Contacts',
+                url: 'https://www.samuelhinkhouse.com/fizzbuzz-contacts-portal/contacts',
+                sourceCode: 'https://github.com/shinkhouse/fizzbuzz-contacts-portal',
+                icon: 'github',
+                date: new Date('11/15/2021'),
+            },
+            {
+                name: 'Cookbook',
+                description: 'A little starter cookbook application',
+                url: 'https://www.samuelhinkhouse.com/cookbook',
+                sourceCode: 'https://github.com/shinkhouse/cookbook',
+                icon: 'github',
+                date: new Date('1/05/2022'),
+            },
+            {
                 name: 'Microsoft To Do Clone',
-                description:
-                    'Microsoft To Do application clone build in React',
+                description: 'Microsoft To Do application clone build in React',
                 url: 'https://www.samuelhinkhouse.com/react-todo/',
                 sourceCode: 'https://github.com/shinkhouse/react-todo',
                 icon: 'github',
-                date: new Date('04/15/2021')
+                date: new Date('04/15/2021'),
             },
             {
                 name: 'Giphy Search',
-                description:
-                    'Angular based application to search for Gifs by keyword. Used Giphy API.',
+                description: 'Angular based application to search for Gifs by keyword. Used Giphy API.',
                 url: 'https://www.samuelhinkhouse.com/giphy-v2/',
                 sourceCode: 'https://github.com/shinkhouse/giphy-v2',
                 icon: 'github',
-                date: new Date('1/1/2019')
+                date: new Date('1/1/2019'),
             },
             {
                 name: 'Calculator',
-                description:
-                    'I made this calculator as one of my first projects with JavaScript.',
+                description: 'I made this calculator as one of my first projects with JavaScript.',
                 url: 'https://www.samuelhinkhouse.com/calculator/',
                 sourceCode: 'https://github.com/shinkhouse/calculator',
                 icon: 'github',
-                date: new Date('1/1/2017')
+                date: new Date('1/1/2017'),
             },
             {
                 name: 'Emoji Picker Menu',
@@ -46,15 +59,15 @@ export class ProjectsComponent implements OnInit {
                 url: 'https://codepen.io/shinkhouse/pen/wQpPYj',
                 sourceCode: '',
                 icon: 'codepen',
-                date: new Date('1/1/2019')
+                date: new Date('1/1/2019'),
             },
             {
                 name: 'Chat Application',
-                description: '',
+                description: 'Chat application built using Node.js, featuring my handmade emoji picker menu.',
                 url: 'https://messaging-server-shinkhouse.herokuapp.com/',
-                sourceCode: '',
+                sourceCode: 'https://github.com/shinkhouse/chat-application',
                 icon: 'github',
-                date: new Date('2/1/2019')
+                date: new Date('2/1/2019'),
             },
             {
                 name: 'Portfolio v2',
@@ -62,7 +75,7 @@ export class ProjectsComponent implements OnInit {
                 sourceCode: 'https://github.com/shinkhouse/portfolio-v2',
                 url: 'https://www.samuelhinkhouse.com/portfolio-v2',
                 icon: 'github',
-                date: new Date('6/1/2016')
+                date: new Date('6/1/2016'),
             },
             {
                 name: 'Portfolio v3',
@@ -70,7 +83,7 @@ export class ProjectsComponent implements OnInit {
                 sourceCode: 'https://github.com/shinkhouse/portfolio-v3',
                 url: 'https://www.samuelhinkhouse.com/portfolio-v3',
                 icon: 'github',
-                date: new Date('9/1/2016')
+                date: new Date('9/1/2016'),
             },
             {
                 name: 'Portfolio v4',
@@ -78,7 +91,7 @@ export class ProjectsComponent implements OnInit {
                 sourceCode: 'https://github.com/shinkhouse/portfolio-v4',
                 url: 'https://www.samuelhinkhouse.com/portfolio-v4',
                 icon: 'github',
-                date: new Date('1/1/2018')
+                date: new Date('1/1/2018'),
             },
             {
                 name: 'Portfolio v6',
@@ -86,7 +99,7 @@ export class ProjectsComponent implements OnInit {
                 url: 'https://www.samuelhinkhouse.com/portfolio-v6',
                 sourceCode: 'https://github.com/shinkhouse/portfolio-v6',
                 icon: 'github',
-                date: new Date('6/1/2019')
+                date: new Date('6/1/2019'),
             },
             {
                 name: 'Felt Message Board',
@@ -94,7 +107,7 @@ export class ProjectsComponent implements OnInit {
                 url: 'https://www.samuelhinkhouse.com/felt-message-board',
                 sourceCode: 'https://github.com/shinkhouse/felt-message-board',
                 icon: 'github',
-                date: new Date('1/1/2017')
+                date: new Date('1/1/2017'),
             },
             {
                 name: 'Weather',
@@ -102,10 +115,8 @@ export class ProjectsComponent implements OnInit {
                 url: '',
                 sourceCode: 'https://github.com/shinkhouse/weather',
                 icon: 'github',
-                date: new Date('2/1/2020')
-            }
-        ].sort(
-            (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-        );
+                date: new Date('2/1/2020'),
+            },
+        ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     }
 }
