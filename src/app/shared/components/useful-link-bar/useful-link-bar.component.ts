@@ -30,7 +30,7 @@ export class UsefulLinkBarComponent implements OnInit {
             },
             {
                 name: 'instagram',
-                link: 'https://www.instagram.com/shinkhouse',
+                link: 'https://www.instagram.com/samuel.t.hinkhouse',
                 icon: 'instagram'
             },
             {
