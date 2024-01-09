@@ -1,4 +1,6 @@
-mat-card.mat-card {
+
+/* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
+mat-card.mat-mdc-card {
     margin: 8px;
     &.flat {
         border: 1px solid var(--border-color);
@@ -7,7 +9,8 @@ mat-card.mat-card {
 }
 
 @media (max-width: 680px) {
-    mat-card.mat-card {
+    /* TODO(mdc-migration): The following rule targets internal classes of card that may no longer apply for the MDC version. */
+    mat-card.mat-mdc-card {
         margin: 8px 0px;
     }
 }
