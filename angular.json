@@ -136,9 +136,10 @@
       }
     }
   },
-  "defaultProject": "portfolio-site",
   "cli": {
     "analytics": "6a26f0d0-25fd-4db8-9021-7222a62bfbde",
-    "defaultCollection": "@angular-eslint/schematics"
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
