@@ -1,22 +1,22 @@
+@use '@angular/material' as mat;
 @import '../modules/theme';
-@import '@angular/material/theming';
-@include mat-core();
-@include angular-material-theme($shi-theme-light);
+@include mat.core();
+@include mat.all-component-themes($shi-theme-light);
 body {
-    --background-color: #{mat-color(map-get($shi-theme-light, background), background)};
-    --text-color-primary: #{$dark-primary-text};
-    --text-color-secondary: #{$dark-secondary-text};
-    --text-color-disabled: #{$dark-disabled-text};
-    --border-color: #{mat-color(map-get($shi-theme-light, foreground), divider)};
+    --background-color: #{mat.get-color(map-get($shi-theme-light, background), background)};
+    --text-color-primary: #{mat.get-color($dark-primary-text)};
+    --text-color-secondary: #{mat.get-color($dark-secondary-text)};
+    --text-color-disabled: #{mat.get-color($dark-disabled-text)};
+    --border-color: #{mat.get-color(map-get($shi-theme-light, foreground), divider)};
 }
 
 body.dark {
-    @include angular-material-theme($shi-theme-dark);
-    --background-color: #{mat-color(map-get($shi-theme-dark, background), background)};
-    --text-color-primary: #{$light-primary-text};
-    --text-color-secondary: #{$light-secondary-text};
-    --text-color-disabled: #{$light-disabled-text};
-    --border-color: #{mat-color(map-get($shi-theme-dark, foreground), divider)};
+    @include mat.all-component-themes($shi-theme-dark);
+    --background-color: #{mat.get-color(map-get($shi-theme-dark, background), background)};
+    --text-color-primary: #{mat.get-color($light-primary-text)};
+    --text-color-secondary: #{mat.get-color($light-secondary-text)};
+    --text-color-disabled: #{mat.get-color($light-disabled-text)};
+    --border-color: #{mat.get-color(map-get($shi-theme-dark, foreground), divider)};
 }
 /* You can add global styles to this file, and also import other style files */
 *,
