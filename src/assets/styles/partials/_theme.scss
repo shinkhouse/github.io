@@ -1,12 +1,9 @@
-@import "../modules/theme";
-@import "@angular/material/theming";
+@import '../modules/theme';
+@import '@angular/material/theming';
 @include mat-core();
 @include angular-material-theme($shi-theme-light);
 body {
-    --background-color: #{mat-color(
-            map-get($shi-theme-light, background),
-            background
-        )};
+    --background-color: #{mat-color(map-get($shi-theme-light, background), background)};
     --text-color-primary: #{$dark-primary-text};
     --text-color-secondary: #{$dark-secondary-text};
     --text-color-disabled: #{$dark-disabled-text};
@@ -15,10 +12,7 @@ body {
 
 body.dark {
     @include angular-material-theme($shi-theme-dark);
-    --background-color: #{mat-color(
-            map-get($shi-theme-dark, background),
-            background
-        )};
+    --background-color: #{mat-color(map-get($shi-theme-dark, background), background)};
     --text-color-primary: #{$light-primary-text};
     --text-color-secondary: #{$light-secondary-text};
     --text-color-disabled: #{$light-disabled-text};
@@ -55,8 +49,7 @@ body {
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue",
-        sans-serif;
+    font-family: 'Space Mono', monospace, 'Helvetica Neue', sans-serif;
 }
 
 .mat-h2,
