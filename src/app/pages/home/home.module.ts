@@ -9,12 +9,7 @@ import { HeroComponent } from './components/hero/hero.component';
 
 @NgModule({
     imports: [CommonModule, SharedModule],
-    declarations: [
-        HomeComponent,
-        ProjectsComponent,
-        AboutMeComponent,
-        HeroComponent
-    ],
+    declarations: [HomeComponent, ProjectsComponent, AboutMeComponent, HeroComponent],
     exports: [HomeComponent, HeroComponent, AboutMeComponent, ProjectsComponent]
 })
 export class HomeModule {}

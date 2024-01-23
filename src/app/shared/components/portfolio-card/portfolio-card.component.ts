@@ -4,7 +4,7 @@ import { Project } from '../../models/project';
 @Component({
     selector: 'shi-portfolio-card',
     templateUrl: './portfolio-card.component.html',
-    styleUrls: ['./portfolio-card.component.scss'],
+    styleUrls: ['./portfolio-card.component.scss']
 })
 export class PortfolioCardComponent {
     constructor() {}

@@ -12,8 +12,8 @@ section {
             height: 24px;
         }
         mat-icon[ng-reflect-svg-icon] svg {
-    width: 24px;
-}
+            width: 24px;
+        }
     }
     .projects {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

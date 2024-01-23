@@ -1,5 +1,7 @@
 main {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(17, 9, 61, 1) 80%), url('../../Dot Grid.png') center center / cover no-repeat;
+    background:
+        linear-gradient(rgba(255, 255, 255, 0), rgba(17, 9, 61, 1) 80%),
+        url('../../Dot Grid.png') center center / cover no-repeat;
     background-color: var(--background-color);
     background-size: 100% auto; // Add this line
     background-position: 0px 0px;

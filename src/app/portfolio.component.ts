@@ -5,10 +5,13 @@ import { DomSanitizer } from '@angular/platform-browser';
 @Component({
     selector: 'shi-root',
     templateUrl: './portfolio.component.html',
-    styleUrls: ['./portfolio.component.scss'],
+    styleUrls: ['./portfolio.component.scss']
 })
 export class AppComponent {
-    constructor(private iconRegistry: MatIconRegistry, private sanitizer: DomSanitizer) {
+    constructor(
+        private iconRegistry: MatIconRegistry,
+        private sanitizer: DomSanitizer
+    ) {
         iconRegistry.addSvgIcon('portfolio-logo', sanitizer.bypassSecurityTrustResourceUrl(`assets/icons/portfolio-logo.svg`));
         iconRegistry.addSvgIcon('codepen', sanitizer.bypassSecurityTrustResourceUrl(`assets/icons/codepen.svg`));
         iconRegistry.addSvgIcon('facebook', sanitizer.bypassSecurityTrustResourceUrl(`assets/icons/facebook.svg`));

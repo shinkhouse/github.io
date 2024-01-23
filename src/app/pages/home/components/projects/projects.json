@@ -6,7 +6,7 @@
         "sourceCode": "https://github.com/shinkhouse/fizzbuzz-contacts-portal",
         "icon": "github",
         "date": "2021-11-15T00:00:00.000Z",
-        "tags": [{"tag": "Angular"}, {"tag": "TypeScript"}, {"tag": "REST API"}]
+        "tags": [{ "tag": "Angular" }, { "tag": "TypeScript" }, { "tag": "REST API" }]
     },
     {
         "name": "Cookbook",
@@ -15,7 +15,7 @@
         "sourceCode": "https://github.com/shinkhouse/cookbook",
         "icon": "github",
         "date": "2022-01-05T00:00:00.000Z",
-        "tags": [{"tag": "JavaScript"}, {"tag": "HTML"}, {"tag": "CSS"}]
+        "tags": [{ "tag": "JavaScript" }, { "tag": "HTML" }, { "tag": "CSS" }]
     },
     {
         "name": "Microsoft To Do Clone",
@@ -24,7 +24,7 @@
         "sourceCode": "https://github.com/shinkhouse/react-todo",
         "icon": "github",
         "date": "2021-04-15T00:00:00.000Z",
-        "tags": [{"tag": "React"}, {"tag": "JavaScript"}, {"tag": "CSS"}]
+        "tags": [{ "tag": "React" }, { "tag": "JavaScript" }, { "tag": "CSS" }]
     },
     {
         "name": "Giphy Search",
@@ -33,7 +33,7 @@
         "sourceCode": "https://github.com/shinkhouse/giphy-v2",
         "icon": "github",
         "date": "2019-01-01T00:00:00.000Z",
-        "tags": [{"tag": "Angular"}, {"tag": "TypeScript"}, {"tag": "REST API"}, {"tag": "Giphy"}]
+        "tags": [{ "tag": "Angular" }, { "tag": "TypeScript" }, { "tag": "REST API" }, { "tag": "Giphy" }]
     },
     {
         "name": "Calculator",
@@ -42,7 +42,7 @@
         "sourceCode": "https://github.com/shinkhouse/calculator",
         "icon": "github",
         "date": "2017-01-01T00:00:00.000Z",
-        "tags": [{"tag": "JavaScript"}, {"tag": "HTML"}, {"tag": "CSS"}]
+        "tags": [{ "tag": "JavaScript" }, { "tag": "HTML" }, { "tag": "CSS" }]
     },
     {
         "name": "Emoji Picker Menu",
@@ -51,7 +51,7 @@
         "sourceCode": "",
         "icon": "codepen",
         "date": "2019-01-01T00:00:00.000Z",
-        "tags": [{"tag": "JavaScript"}, {"tag": "HTML"}, {"tag": "CSS"}]
+        "tags": [{ "tag": "JavaScript" }, { "tag": "HTML" }, { "tag": "CSS" }]
     },
     {
         "name": "Chat Application",
@@ -60,7 +60,7 @@
         "sourceCode": "https://github.com/shinkhouse/chat-application",
         "icon": "github",
         "date": "2019-02-01T00:00:00.000Z",
-        "tags": [{"tag": "Node.js"}, {"tag": "JavaScript"}, {"tag": "HTML"}, {"tag": "CSS"}]
+        "tags": [{ "tag": "Node.js" }, { "tag": "JavaScript" }, { "tag": "HTML" }, { "tag": "CSS" }]
     },
     {
         "name": "Portfolio v2",
@@ -69,7 +69,7 @@
         "url": "https://shinkhouse.github.io/portfolio-v2",
         "icon": "github",
         "date": "2016-06-01T00:00:00.000Z",
-        "tags": [{"tag": "HTML"}, {"tag": "CSS"}]
+        "tags": [{ "tag": "HTML" }, { "tag": "CSS" }]
     },
     {
         "name": "Portfolio v3",
@@ -78,7 +78,7 @@
         "url": "https://shinkhouse.github.io/portfolio-v3",
         "icon": "github",
         "date": "2016-09-01T00:00:00.000Z",
-        "tags": [{"tag": "HTML"}, {"tag": "CSS"}]
+        "tags": [{ "tag": "HTML" }, { "tag": "CSS" }]
     },
     {
         "name": "Portfolio v4",
@@ -87,7 +87,7 @@
         "url": "https://shinkhouse.github.io/portfolio-v4",
         "icon": "github",
         "date": "2018-01-01T00:00:00.000Z",
-        "tags": [{"tag": "HTML"}, {"tag": "CSS"}]
+        "tags": [{ "tag": "HTML" }, { "tag": "CSS" }]
     },
     {
         "name": "Portfolio v6",
@@ -96,7 +96,7 @@
         "sourceCode": "https://github.com/shinkhouse/portfolio-v6",
         "icon": "github",
         "date": "2019-06-01T00:00:00.000Z",
-        "tags": [{"tag": "HTML"}, {"tag": "CSS"}]
+        "tags": [{ "tag": "HTML" }, { "tag": "CSS" }]
     },
     {
         "name": "Felt Message Board",
@@ -105,7 +105,7 @@
         "sourceCode": "https://github.com/shinkhouse/felt-message-board",
         "icon": "github",
         "date": "2017-01-01T00:00:00.000Z",
-        "tags": [{"tag": "JavaScript"}, {"tag": "HTML"}, {"tag": "CSS"}]
+        "tags": [{ "tag": "JavaScript" }, { "tag": "HTML" }, { "tag": "CSS" }]
     },
     {
         "name": "Weather",
@@ -114,6 +114,6 @@
         "sourceCode": "https://github.com/shinkhouse/weather",
         "icon": "github",
         "date": "2020-02-01T00:00:00.000Z",
-        "tags": [{"tag": "JavaScript"}, {"tag": "HTML"}, {"tag": "CSS"}, {"tag": "API"}]
+        "tags": [{ "tag": "JavaScript" }, { "tag": "HTML" }, { "tag": "CSS" }, { "tag": "API" }]
     }
 ]

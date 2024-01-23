@@ -9,11 +9,6 @@ import { MatIconModule } from '@angular/material/icon';
 @NgModule({
     imports: [CommonModule, MatIconModule, FlexLayoutModule, HttpClientModule],
     declarations: [PortfolioCardComponent, UsefulLinkBarComponent],
-    exports: [
-        PortfolioCardComponent,
-        UsefulLinkBarComponent,
-        MatIconModule,
-        FlexLayoutModule
-    ]
+    exports: [PortfolioCardComponent, UsefulLinkBarComponent, MatIconModule, FlexLayoutModule]
 })
 export class SharedModule {}

@@ -7,7 +7,7 @@ $shi-accent: mat.define-palette(mat.$blue-palette, A200, A100, A400);
 $shi-warn: mat.define-palette(mat.$red-palette);
 
 $shi-typography: mat.define-typography-config(
-        $font-family: 'Space Mono'
+    $font-family: 'Space Mono'
 );
 
 // Create the theme object (a Sass map containing all of the palettes).
@@ -16,8 +16,8 @@ $shi-theme-light: mat.define-light-theme(
         color: (
             primary: $shi-primary,
             accent: $shi-accent,
-            warn: $shi-warn,
+            warn: $shi-warn
         ),
-        typography: $shi-typography,
+        typography: $shi-typography
     )
 );

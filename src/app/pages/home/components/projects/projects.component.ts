@@ -19,7 +19,7 @@ export class ProjectsComponent implements OnInit {
                 url: 'https://shinkhouse.github.io/fizzbuzz-contacts-portal/contacts',
                 sourceCode: 'https://github.com/shinkhouse/fizzbuzz-contacts-portal',
                 icon: 'github',
-                date: new Date('11/15/2021'),
+                date: new Date('11/15/2021')
             },
             {
                 name: 'Cookbook',
@@ -27,7 +27,7 @@ export class ProjectsComponent implements OnInit {
                 url: 'https://shinkhouse.github.io/cookbook',
                 sourceCode: 'https://github.com/shinkhouse/cookbook',
                 icon: 'github',
-                date: new Date('1/05/2022'),
+                date: new Date('1/05/2022')
             },
             {
                 name: 'Microsoft To Do Clone',
@@ -35,7 +35,7 @@ export class ProjectsComponent implements OnInit {
                 url: 'https://shinkhouse.github.io/react-todo/',
                 sourceCode: 'https://github.com/shinkhouse/react-todo',
                 icon: 'github',
-                date: new Date('04/15/2021'),
+                date: new Date('04/15/2021')
             },
             {
                 name: 'Giphy Search',
@@ -43,7 +43,7 @@ export class ProjectsComponent implements OnInit {
                 url: 'https://shinkhouse.github.io/giphy-v2/',
                 sourceCode: 'https://github.com/shinkhouse/giphy-v2',
                 icon: 'github',
-                date: new Date('1/1/2019'),
+                date: new Date('1/1/2019')
             },
             {
                 name: 'Calculator',
@@ -51,7 +51,7 @@ export class ProjectsComponent implements OnInit {
                 url: 'https://shinkhouse.github.io/calculator/',
                 sourceCode: 'https://github.com/shinkhouse/calculator',
                 icon: 'github',
-                date: new Date('1/1/2017'),
+                date: new Date('1/1/2017')
             },
             {
                 name: 'Emoji Picker Menu',
@@ -59,7 +59,7 @@ export class ProjectsComponent implements OnInit {
                 url: 'https://codepen.io/shinkhouse/pen/wQpPYj',
                 sourceCode: '',
                 icon: 'codepen',
-                date: new Date('1/1/2019'),
+                date: new Date('1/1/2019')
             },
             {
                 name: 'Chat Application',
@@ -67,7 +67,7 @@ export class ProjectsComponent implements OnInit {
                 url: 'https://messaging-server-shinkhouse.herokuapp.com/',
                 sourceCode: 'https://github.com/shinkhouse/chat-application',
                 icon: 'github',
-                date: new Date('2/1/2019'),
+                date: new Date('2/1/2019')
             },
             {
                 name: 'Portfolio v2',
@@ -75,7 +75,7 @@ export class ProjectsComponent implements OnInit {
                 sourceCode: 'https://github.com/shinkhouse/portfolio-v2',
                 url: 'https://shinkhouse.github.io/portfolio-v2',
                 icon: 'github',
-                date: new Date('6/1/2016'),
+                date: new Date('6/1/2016')
             },
             {
                 name: 'Portfolio v3',
@@ -83,7 +83,7 @@ export class ProjectsComponent implements OnInit {
                 sourceCode: 'https://github.com/shinkhouse/portfolio-v3',
                 url: 'https://shinkhouse.github.io/portfolio-v3',
                 icon: 'github',
-                date: new Date('9/1/2016'),
+                date: new Date('9/1/2016')
             },
             {
                 name: 'Portfolio v4',
@@ -91,7 +91,7 @@ export class ProjectsComponent implements OnInit {
                 sourceCode: 'https://github.com/shinkhouse/portfolio-v4',
                 url: 'https://shinkhouse.github.io/portfolio-v4',
                 icon: 'github',
-                date: new Date('1/1/2018'),
+                date: new Date('1/1/2018')
             },
             {
                 name: 'Portfolio v6',
@@ -99,7 +99,7 @@ export class ProjectsComponent implements OnInit {
                 url: 'https://shinkhouse.github.io/portfolio-v6',
                 sourceCode: 'https://github.com/shinkhouse/portfolio-v6',
                 icon: 'github',
-                date: new Date('6/1/2019'),
+                date: new Date('6/1/2019')
             },
             {
                 name: 'Felt Message Board',
@@ -107,7 +107,7 @@ export class ProjectsComponent implements OnInit {
                 url: 'https://shinkhouse.github.io/felt-message-board',
                 sourceCode: 'https://github.com/shinkhouse/felt-message-board',
                 icon: 'github',
-                date: new Date('1/1/2017'),
+                date: new Date('1/1/2017')
             },
             {
                 name: 'Weather',
@@ -115,8 +115,8 @@ export class ProjectsComponent implements OnInit {
                 url: 'https://shinkhouse.github.io/weather',
                 sourceCode: 'https://github.com/shinkhouse/weather',
                 icon: 'github',
-                date: new Date('2/1/2020'),
-            },
+                date: new Date('2/1/2020')
+            }
         ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     }
 }
