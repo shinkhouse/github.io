@@ -1,12 +1,23 @@
 header {
     display: flex;
     box-sizing: border-box;
-    padding: 0 16px;
+    padding: 48px 48px;
     width: 100%;
     flex-direction: row;
     align-items: center;
     white-space: nowrap;
+    gap: 16px;
     height: 64px;
+    position: fixed;
+    top: 0px;
+    transition: top 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+    &.hide {
+        top: -100px;
+    }
+    &.primary {
+        background-color: var(--background-color);
+    }
 
     mat-icon.portfolio-logo {
         margin: 0px 16px 0px 16px;
@@ -19,9 +30,11 @@ header {
         color: var(--text-color-primary);
     }
 
-    h2.mat-headline-6 {
-        margin: 0px;
+    h2 {
         color: var(--text-color-primary);
+        & span {
+            color: white;
+        }
     }
 
     & ul {
@@ -49,14 +62,19 @@ header {
         }
     }
 
-    button[mat-stroked-button] {
-        margin-left: 8px;
-        color: var(--text-color-primary);
+    a {
+        & button {
+            color: var(--text-color-primary);
+        }
     }
-
-    .dark-mode-toggle {
-        & .mat-icon {
-            transform: rotate(135deg);
+    button {
+        padding: 8px 16px;
+        cursor: pointer;
+        transition: 0.2s;
+        background: var(--background-color);
+        &:hover {
+            box-shadow: 4px 4px 0 0 var(--text-color-primary);
+            transform: translate(-5px, -5px);
         }
     }
 }

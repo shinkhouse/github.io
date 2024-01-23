@@ -3,22 +3,13 @@
 @include mat.core();
 @include mat.all-component-themes($shi-theme-light);
 body {
-    --background-color: #{mat.get-color(map-get($shi-theme-light, background), background)};
-    --text-color-primary: #{mat.get-color($dark-primary-text)};
-    --text-color-secondary: #{mat.get-color($dark-secondary-text)};
-    --text-color-disabled: #{mat.get-color($dark-disabled-text)};
-    --border-color: #{mat.get-color(map-get($shi-theme-light, foreground), divider)};
+    --background-color: #11093d;
+    --text-color-primary: #00ff7f;
+    --text-color-secondary: mat.get-theme-color($dark-secondary-text);
+    --text-color-disabled: mat.get-theme-color($dark-disabled-text);
+    --border-color: mat.get-theme-color($shi-theme-light, foreground, divider);
 }
 
-body.dark {
-    @include mat.all-component-themes($shi-theme-dark);
-    --background-color: #{mat.get-color(map-get($shi-theme-dark, background), background)};
-    --text-color-primary: #{mat.get-color($light-primary-text)};
-    --text-color-secondary: #{mat.get-color($light-secondary-text)};
-    --text-color-disabled: #{mat.get-color($light-disabled-text)};
-    --border-color: #{mat.get-color(map-get($shi-theme-dark, foreground), divider)};
-}
-/* You can add global styles to this file, and also import other style files */
 *,
 ::before,
 ::after {
@@ -44,7 +35,6 @@ body.dark {
 html,
 body {
     height: 100%;
-    background-color: var(--background-color);
 }
 
 body {

@@ -1,12 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'shi-hero',
     templateUrl: './hero.component.html',
-    styleUrls: ['./hero.component.scss']
+    styleUrls: ['./hero.component.scss'],
 })
-export class HeroComponent implements OnInit {
+export class HeroComponent {
     constructor() {}
-
-    ngOnInit(): void {}
 }

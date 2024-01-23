@@ -1,4 +1,4 @@
-import { Component, OnInit, Renderer2 } from '@angular/core';
+import { Component, HostListener, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
     selector: 'shi-header',
@@ -9,7 +9,26 @@ export class HeaderComponent implements OnInit {
     constructor(private renderer: Renderer2) {}
 
     public navigation: any[];
-    private dark: boolean;
+    public hideHeader: boolean = false;
+    public scrollPosition: number = 0;
+
+    @HostListener('window:scroll', [])
+    onWindowScroll() {
+        const currentScrollPos = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        console.log(currentScrollPos, this.scrollPosition, (currentScrollPos < this.scrollPosition));
+        if (currentScrollPos < this.scrollPosition) {
+            // User is scrolling up
+            this.hideHeader = false;
+        } else if (currentScrollPos > 16) {
+            // User is scrolling down
+            this.hideHeader = true;
+        }
+        this.scrollPosition = currentScrollPos;
+    }
+
+    doesHeaderHaveBackground(): boolean {
+        return this.scrollPosition >= 16;
+    }
 
     ngOnInit(): void {
         this.navigation = [
@@ -27,20 +46,7 @@ export class HeaderComponent implements OnInit {
     scrollToHeader(element) {
         const el = this.renderer.selectRootElement(`#${element}`, true);
         const yOffset = -32;
-        const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        const yCoordinate = el.getBoundingClientRect().top + window.scrollY + yOffset;
         window.scrollTo({ top: yCoordinate, behavior: 'smooth' });
-    }
-
-    toggleDarkMode() {
-        this.dark = !this.dark;
-        this.dark ? this.renderer.addClass(document.body, 'dark') : this.renderer.removeClass(document.body, 'dark');
-    }
-
-    getDarkModeIcon() {
-        return this.dark ? 'wb_sunny' : 'brightness_3';
-    }
-
-    getDarkModeButtonTooltip() {
-        return this.dark ? 'Light mode' : 'Dark mode';
     }
 }
