@@ -7,8 +7,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
-    imports: [CommonModule, MatIconModule, FlexLayoutModule, HttpClientModule],
-    declarations: [PortfolioCardComponent, UsefulLinkBarComponent],
-    exports: [PortfolioCardComponent, UsefulLinkBarComponent, MatIconModule, FlexLayoutModule]
+    imports: [CommonModule, MatIconModule, FlexLayoutModule, HttpClientModule,PortfolioCardComponent],
+    declarations: [UsefulLinkBarComponent],
+    exports: [UsefulLinkBarComponent, MatIconModule, FlexLayoutModule, PortfolioCardComponent]
 })
 export class SharedModule {}

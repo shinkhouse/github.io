@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
 import { HomeModule } from './pages/home/home.module';
 import { CoreModule } from './core/core.module';
+import { PortfolioCardComponent } from './shared/components/portfolio-card/portfolio-card.component';
 
 @NgModule({
     declarations: [AppComponent],
@@ -21,7 +22,8 @@ import { CoreModule } from './core/core.module';
         }),
         BrowserAnimationsModule,
         SharedModule,
-        HomeModule
+        HomeModule,
+        PortfolioCardComponent
     ],
     providers: [],
     bootstrap: [AppComponent]

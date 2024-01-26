@@ -19,9 +19,15 @@ main {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     main {
         padding: 0px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 0px 16px;
     }
 }
 

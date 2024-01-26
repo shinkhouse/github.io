@@ -1,8 +1,13 @@
 export interface Project {
-    url: string;
-    sourceCode?: string;
     name: string;
     description: string;
-    icon?: string;
-    date?: Date;
+    url: string;
+    sourceCode?: string;
+    icon: string;
+    date: string;
+    tags: Tag[];
+    image?: string;
+}
+export interface Tag {
+    tag: string;
 }

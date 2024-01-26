@@ -5,9 +5,14 @@ button {
     font-family: 'Space Mono', monospace;
     padding: 16px 48px;
     background: transparent;
+    transition: 0.2s;
 
+    &:hover {
+        box-shadow: 4px 4px 0 0 var(--text-color-primary);
+        transform: translate(-5px, -5px);
+    }
     &.alternate {
-        border: 2px solid var(--text-color-psecondary);
+        border: 2px solid var(--text-color-secondary);
         color: var(--text-color-secondary);
         background: var(--text-color-secondary);
     }

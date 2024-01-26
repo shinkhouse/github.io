@@ -8,8 +8,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { HeroComponent } from './components/hero/hero.component';
 
 @NgModule({
-    imports: [CommonModule, SharedModule],
-    declarations: [HomeComponent, ProjectsComponent, AboutMeComponent, HeroComponent],
+    imports: [CommonModule, SharedModule, HeroComponent],
+    declarations: [HomeComponent, ProjectsComponent, AboutMeComponent],
     exports: [HomeComponent, HeroComponent, AboutMeComponent, ProjectsComponent]
 })
 export class HomeModule {}

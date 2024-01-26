@@ -1,9 +1,17 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 section {
     h1 {
         color: var(--text-color-primary);
     }
     button {
         color: var(--text-color-primary);
+        padding: 4px 4px;
+        height: fit-content;
         mat-icon.mat-icon {
             fill: var(--text-color-primary);
         }
@@ -16,9 +24,8 @@ section {
         }
     }
     .projects {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        display: grid;
-        position: relative;
+        display: flex;
+        flex-direction: column;
     }
 
     .projects-table {

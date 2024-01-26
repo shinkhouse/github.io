@@ -1,4 +1,20 @@
-header {
+.card {
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: var(--background-color);
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 16px;
+
+    .card-content {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        @media (max-width: 1080px) {
+            flex-direction: column;
+        }
+    }
+}
+div.card-header {
     & a {
         color: var(--text-color-primary);
 
@@ -7,7 +23,11 @@ header {
         }
 
         & mat-icon.mat-icon {
-            padding: 0px 4px;
+            margin: 0px 8px;
         }
     }
+}
+h2,
+p {
+    margin: 0px;
 }

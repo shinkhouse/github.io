@@ -2,7 +2,7 @@
     <header>
         <h1 id="projects">Development Projects</h1>
         <div fxFlex></div>
-        <button mat-icon-button matTooltip="Show List" (click)="showTable = !showTable">
+        <button title="Show more projects" attr.aria-label="Show more projects" matTooltip="Show List" (click)="showTable = !showTable">
             <mat-icon>{{ showTable ? 'view_module' : 'subject' }}</mat-icon>
         </button>
     </header>

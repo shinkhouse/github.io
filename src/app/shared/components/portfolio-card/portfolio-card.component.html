@@ -1,10 +1,25 @@
 <div class="card" fxFlex>
-    <header>
-        <mat-icon>folder</mat-icon>
-        <div fxFlex></div>
-        <a *ngIf="project.sourceCode" [href]="project.sourceCode"><mat-icon [svgIcon]="project.icon">link</mat-icon></a>
-        <a *ngIf="project.url" [href]="project.url"><mat-icon>launch</mat-icon></a>
-    </header>
-    <h2>{{ project.name }}</h2>
-    <p class="mat-body">{{ project.description }}</p>
+    <div fxLayout="row" fxLayoutGap="16px">
+        <div class="card-content">
+            <img [ngSrc]="project.image" width="150" height="84.375" [alt]="getProjectAltText(project.name)" />
+            <div fxLayout="column" fxFlex>
+                <h2>{{ project.name }}</h2>
+                <p class="mat-body">{{ project.description }}</p>
+            </div>
+        </div>
+        <a
+            *ngIf="project.sourceCode"
+            [title]="getProjectLinkTitleText(project.name, 'sourceCode')"
+            [attr.aria-label]="getProjectLinkTitleText(project.name, 'sourceCode')"
+            [href]="project.sourceCode"
+            ><mat-icon [svgIcon]="project.icon">link</mat-icon></a
+        >
+        <a
+            *ngIf="project.url"
+            [title]="getProjectLinkTitleText(project.name, 'preview')"
+            [attr.aria-label]="getProjectLinkTitleText(project.name, 'preview')"
+            [href]="project.url"
+            ><mat-icon>launch</mat-icon></a
+        >
+    </div>
 </div>

@@ -14,35 +14,39 @@ export class UsefulLinkBarComponent implements OnInit {
     ngOnInit(): void {
         this.resources = [
             {
-                name: 'facebook',
+                name: 'Facebook',
                 link: 'https://www.facebook.com/shinkhouse',
                 icon: 'facebook'
             },
             {
-                name: 'twitter',
+                name: 'Twitter',
                 link: 'https://www.twitter.com/shinkhouse',
                 icon: 'twitter'
             },
             {
-                name: 'linkedin',
+                name: 'Linkedin',
                 link: 'https://www.linkedin.com/in/shinkhouse',
                 icon: 'linkedin'
             },
             {
-                name: 'instagram',
+                name: 'Instagram',
                 link: 'https://www.instagram.com/samuel.t.hinkhouse',
                 icon: 'instagram'
             },
             {
-                name: 'github',
+                name: 'GitHub',
                 link: 'https://www.github.com/shinkhouse',
                 icon: 'github'
             },
             {
-                name: 'codepen',
+                name: 'CodePen',
                 link: 'https://www.codepen.io/shinkhouse',
                 icon: 'codepen'
             }
         ];
+    }
+
+    getUsefulLinkTitleText(resource: Resource): string {
+        return `Find Samuel Hinkhouse on ${resource.name}`;
     }
 }
