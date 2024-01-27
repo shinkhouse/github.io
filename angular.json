@@ -115,7 +115,12 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
-          "options": {}
+          "options": {
+            "baseHref": "/",
+            "name": "Samuel Hinkhouse portfolio",
+            "email": "hinkhouse.samuel@gmail.com",
+            "cname": "www.samuelhinkhouse.com"
+          }
         },
         "lint": {
           "builder": "@angular-eslint/builder:lint",
