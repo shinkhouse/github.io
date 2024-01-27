@@ -1,7 +1,11 @@
 main {
-    max-width: 1400px;
-    padding: 0px 150px;
-    margin: 0px auto;
+    background:
+        linear-gradient(rgba(255, 255, 255, 0), rgba(17, 9, 61, 1) 80%),
+        url('../../Dot Grid.png') center center / cover no-repeat;
+    background-color: var(--background-color);
+    background-size: 100% auto; // Add this line
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
 
     & section {
         max-width: 1000px;
@@ -15,15 +19,21 @@ main {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     main {
         padding: 0px 40px;
     }
 }
 
+@media (max-width: 768px) {
+    main {
+        padding: 0px 16px;
+    }
+}
+
 @media (max-width: 450px) {
     main {
-        padding: 0px 24px;
+        // padding: 0px 24px;
 
         section {
             padding: 16px 0px;

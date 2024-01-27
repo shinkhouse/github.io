@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1641856774881,
+  "timestamp": 1706317921886,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,13 +11,11 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
         "/index.html",
-        "/main.6253f08e65bcec79.js",
+        "/main-3DIQYTPJ.js",
         "/manifest.webmanifest",
-        "/polyfills.a1956e7d60edaab0.js",
-        "/runtime.be02ce8f435064c9.js",
-        "/styles.1f89df64f54779fe.css"
+        "/polyfills-MAT6ZQ6R.js",
+        "/styles-F43ZFNHA.css"
       ],
       "patterns": []
     },
@@ -29,6 +27,8 @@
         "ignoreVary": true
       },
       "urls": [
+        "/assets/Dot Grid.png",
+        "/assets/favicon.png",
         "/assets/icons/codepen.svg",
         "/assets/icons/facebook.svg",
         "/assets/icons/folder-open.svg",
@@ -45,8 +45,18 @@
         "/assets/icons/logo-96.png",
         "/assets/icons/portfolio-logo.svg",
         "/assets/icons/twitter.svg",
+        "/assets/project-images/angular-dashboard-example.png",
+        "/assets/project-images/cookbook.png",
+        "/assets/project-images/dictionary-app.png",
+        "/assets/project-images/fizzbuzz-contacts.png",
+        "/assets/project-images/giphy-v2.png",
+        "/assets/project-images/react-todo.png",
+        "/assets/project-images/spotify-clone.png",
+        "/assets/project-images/therapynotes.png",
+        "/assets/shinkhouse-portrait.jpeg",
         "/assets/styles/_partials.scss",
         "/assets/styles/modules/_theme.scss",
+        "/assets/styles/partials/_button.scss",
         "/assets/styles/partials/_card.scss",
         "/assets/styles/partials/_layout.scss",
         "/assets/styles/partials/_link.scss",
@@ -57,6 +67,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/assets/Dot Grid.png": "6ead6eb62cb049c321ab7f132d6d3c71acb3f11d",
+    "/assets/favicon.png": "7b63d3bc2eb4d0dae54c6f793068f4ad2c1a3440",
     "/assets/icons/codepen.svg": "440ce50b87e0f25f5a98b64e8d9456249697cc69",
     "/assets/icons/facebook.svg": "9047a49e14ed3e8d120c07f30070ad92a70447a4",
     "/assets/icons/folder-open.svg": "9a9365052cc9582c0008a3dc42833ab0862f5c25",
@@ -73,19 +85,27 @@
     "/assets/icons/logo-96.png": "48d349b88b48157509cb0d6ef09eedf6efe20f98",
     "/assets/icons/portfolio-logo.svg": "1e32aebe9f1b3cee810eac4401e2c1b2dc563324",
     "/assets/icons/twitter.svg": "f98ae5763bac8e178b70acef86a505708c4a5f83",
-    "/assets/styles/_partials.scss": "25ac8cfa1b1ed432c1d35ddc5dcc654d1fb4074e",
-    "/assets/styles/modules/_theme.scss": "e1ea7181a057d1b34e3bb96b24ca4f966638407f",
-    "/assets/styles/partials/_card.scss": "be6fd19164b74925f5920067adeff6b7c7cafcca",
-    "/assets/styles/partials/_layout.scss": "2cc59e3c773a8be111d6adcfb669bc7f266079dd",
+    "/assets/project-images/angular-dashboard-example.png": "a0f678eba16de6cedc12a11b77e47e2fee0969e8",
+    "/assets/project-images/cookbook.png": "b44cb2170cabbd72a84b7c831caa4cc1a9a4d2c0",
+    "/assets/project-images/dictionary-app.png": "4eb916d168524340b887bd695befe8c73b109084",
+    "/assets/project-images/fizzbuzz-contacts.png": "9a571a00f56c3594bf3477b9b45c4c11c4a76c4f",
+    "/assets/project-images/giphy-v2.png": "880a18a23a5ae0960515dd960adf5065e53605b8",
+    "/assets/project-images/react-todo.png": "dfcdf136b4486eb9273cdb24f961ab0ec365ad03",
+    "/assets/project-images/spotify-clone.png": "4bc05f5dd730c444cbbaa156e02c3247d8e2a123",
+    "/assets/project-images/therapynotes.png": "755be0823ee3fe8ecedebfe580b5255e460bd0dd",
+    "/assets/shinkhouse-portrait.jpeg": "c4a7d2de40d6f5b72d55733783296c49f6c7f61a",
+    "/assets/styles/_partials.scss": "2fcf1f398320be80b40415e649ff8379990bc2c8",
+    "/assets/styles/modules/_theme.scss": "28d004de3432ded48a5c133d937969577f9d6989",
+    "/assets/styles/partials/_button.scss": "ffdf3ef6aa252f095741f843e24e4b4fa36ba9ec",
+    "/assets/styles/partials/_card.scss": "8c67f07e544bfa481fd804ace0a7acefbe4aef8b",
+    "/assets/styles/partials/_layout.scss": "87a5fb3fec7a1cfb32307a26b4e2a44479811274",
     "/assets/styles/partials/_link.scss": "3dbc0307a607c29c519b08b72a14a8920db4b08a",
-    "/assets/styles/partials/_theme.scss": "1e3dd7848c9df1faa13b1faa48c84435e4ebe5f2",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "32cda22da995a12887b43151b08570c8e24e3998",
-    "/main.6253f08e65bcec79.js": "264f5deb9ebb4a27a544bfc1b8c0455d8723b744",
+    "/assets/styles/partials/_theme.scss": "b238ca6247bbc8933a20fddc53dcf24538c89fcf",
+    "/index.html": "e9664c2ecb6308119e8d16c2e7b073f4271adedf",
+    "/main-3DIQYTPJ.js": "bb91917e4d2e35fa8fb17c66939bdbd940f93c43",
     "/manifest.webmanifest": "e9a63dc37a012bf9c93022b76dcc698ca3a32766",
-    "/polyfills.a1956e7d60edaab0.js": "6786762bf9ccbf17a6e8e4effdb1a6334c3fb8b9",
-    "/runtime.be02ce8f435064c9.js": "fd561afeeeea810c7b726244fe9f8c931efea600",
-    "/styles.1f89df64f54779fe.css": "f3ce0f9d1f24326f3117f1e0eeec9c83a688577d"
+    "/polyfills-MAT6ZQ6R.js": "e5989930c0f0168f48807244c3c98b197092c2bd",
+    "/styles-F43ZFNHA.css": "5f6ef3b98f8646cfb39940ab93ed13e2f29145c1"
   },
   "navigationUrls": [
     {
