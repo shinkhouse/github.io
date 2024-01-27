@@ -1,30 +1,15 @@
-@import "../modules/theme";
-@import "@angular/material/theming";
-@include mat-core();
-@include angular-material-theme($shi-theme-light);
+@use '@angular/material' as mat;
+@import '../modules/theme';
+@include mat.core();
+@include mat.all-component-themes($shi-theme-light);
 body {
-    --background-color: #{mat-color(
-            map-get($shi-theme-light, background),
-            background
-        )};
-    --text-color-primary: #{$dark-primary-text};
-    --text-color-secondary: #{$dark-secondary-text};
-    --text-color-disabled: #{$dark-disabled-text};
-    --border-color: #{mat-color(map-get($shi-theme-light, foreground), divider)};
+    --background-color: #11093d;
+    --text-color-primary: #00ff7f;
+    --text-color-secondary: mat.get-theme-color($dark-secondary-text);
+    --text-color-disabled: mat.get-theme-color($dark-disabled-text);
+    --border-color: mat.get-theme-color($shi-theme-light, foreground, divider);
 }
 
-body.dark {
-    @include angular-material-theme($shi-theme-dark);
-    --background-color: #{mat-color(
-            map-get($shi-theme-dark, background),
-            background
-        )};
-    --text-color-primary: #{$light-primary-text};
-    --text-color-secondary: #{$light-secondary-text};
-    --text-color-disabled: #{$light-disabled-text};
-    --border-color: #{mat-color(map-get($shi-theme-dark, foreground), divider)};
-}
-/* You can add global styles to this file, and also import other style files */
 *,
 ::before,
 ::after {
@@ -50,17 +35,15 @@ body.dark {
 html,
 body {
     height: 100%;
-    background-color: var(--background-color);
 }
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue",
-        sans-serif;
+    font-family: 'Space Mono', monospace, 'Helvetica Neue', sans-serif;
 }
 
 .mat-h2,
-.mat-title,
+.mat-headline-6,
 .mat-typography h2 {
     padding: 0px;
     margin: 16px 0px;

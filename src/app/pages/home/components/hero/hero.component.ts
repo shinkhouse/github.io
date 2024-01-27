@@ -1,12 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { NgOptimizedImage } from '@angular/common';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'shi-hero',
     templateUrl: './hero.component.html',
-    styleUrls: ['./hero.component.scss']
+    styleUrls: ['./hero.component.scss'],
+    standalone: true,
+    imports: [NgOptimizedImage]
 })
-export class HeroComponent implements OnInit {
+export class HeroComponent {
     constructor() {}
-
-    ngOnInit(): void {}
 }

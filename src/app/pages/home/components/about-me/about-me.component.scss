@@ -40,8 +40,9 @@ section {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
     section {
+        padding: 0px 16px;
         & p {
             font-size: 14px;
             line-height: 26px;

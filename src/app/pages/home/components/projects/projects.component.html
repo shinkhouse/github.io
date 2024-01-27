@@ -2,19 +2,17 @@
     <header>
         <h1 id="projects">Development Projects</h1>
         <div fxFlex></div>
-        <button mat-icon-button matTooltip="Show List" (click)="showTable = !showTable">
-            <mat-icon>{{showTable ? 'view_module' : 'subject'}}</mat-icon>
+        <button title="Show more projects" attr.aria-label="Show more projects" matTooltip="Show List" (click)="showTable = !showTable">
+            <mat-icon>{{ showTable ? 'view_module' : 'subject' }}</mat-icon>
         </button>
     </header>
     <div class="projects-container">
         <div class="projects" *ngIf="!showTable">
-            <div class="project" *ngFor="let project of projects">
-                <shi-portfolio-card
-                    [project]="project"
-                    fxFlex
-                    fxLayout="column"
-                ></shi-portfolio-card>
-            </div>
+            <ng-container *ngFor="let project of projects">
+                <div class="project" *ngIf="project.showProject">
+                    <shi-portfolio-card [project]="project"></shi-portfolio-card>
+                </div>
+            </ng-container>
         </div>
         <div class="projects-table" *ngIf="showTable">
             <table>
@@ -28,20 +26,12 @@
                 </thead>
                 <tbody>
                     <tr *ngFor="let project of projects">
-                        <td class="column-year">{{project.date | date:'yyyy'}}</td>
+                        <td class="column-year">{{ project.date | date: 'yyyy' }}</td>
                         <td class="column-name">{{ project.name }}</td>
                         <td class="column-description">{{ project.description }}</td>
                         <td class="column-links">
-                            <a
-                                *ngIf="project.sourceCode"
-                                [href]="project.sourceCode"
-                                ><mat-icon [svgIcon]="project.icon"
-                                    >link</mat-icon
-                                ></a
-                            >
-                            <a *ngIf="project.url" [href]="project.url"
-                                ><mat-icon>launch</mat-icon></a
-                            >
+                            <a *ngIf="project.sourceCode" [href]="project.sourceCode"><mat-icon [svgIcon]="project.icon">link</mat-icon></a>
+                            <a *ngIf="project.url" [href]="project.url"><mat-icon>launch</mat-icon></a>
                         </td>
                     </tr>
                 </tbody>

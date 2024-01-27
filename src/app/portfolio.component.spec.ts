@@ -5,9 +5,8 @@ import { AppComponent } from './portfolio.component';
 describe('AppComponent', () => {
     beforeEach(waitForAsync(() => {
         TestBed.configureTestingModule({
-            imports: [RouterTestingModule],
-            declarations: [AppComponent]
-        }).compileComponents();
+    imports: [RouterTestingModule, AppComponent]
+}).compileComponents();
     }));
 
     it('should create the app', () => {
@@ -26,8 +25,6 @@ describe('AppComponent', () => {
         const fixture = TestBed.createComponent(AppComponent);
         fixture.detectChanges();
         const compiled = fixture.debugElement.nativeElement;
-        expect(compiled.querySelector('.content span').textContent).toContain(
-            'portfolio-site app is running!'
-        );
+        expect(compiled.querySelector('.content span').textContent).toContain('portfolio-site app is running!');
     });
 });

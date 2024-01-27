@@ -1,6 +1,5 @@
-<header>
-    <mat-icon class="portfolio-logo" svgIcon="portfolio-logo"></mat-icon>
-    <!-- <h2 class="mat-title">Samuel Hinkhouse</h2> -->
+<header [class.hide]="hideHeader" [class.primary]="doesHeaderHaveBackground()">
+    <h2 class="mat-title"><span>//</span> Samuel Hinkhouse</h2>
     <div fxFlex></div>
     <nav>
         <ul>
@@ -11,8 +10,7 @@
             </li>
         </ul>
     </nav>
-    <!-- <button mat-stroked-button>Resume</button> -->
-    <button (click)="toggleDarkMode()" class="dark-mode-toggle" mat-icon-button [matTooltip]="getDarkModeButtonTooltip()">
-        <mat-icon>{{getDarkModeIcon()}}</mat-icon>
-    </button>
+    <a href="https://resume.samuelhinkhouse.com/">
+        <button>Resume</button>
+    </a>
 </header>

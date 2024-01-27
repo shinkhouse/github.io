@@ -2,16 +2,16 @@ div {
     width: 40px;
     position: fixed;
     bottom: 0px;
-    left: 40px;
-    right: auto;
+    left: auto;
+    right: 48px;
     z-index: 10;
 
     &::after {
-        content: "";
+        content: '';
         display: block;
         width: 1px;
         height: 90px;
-        background-color: var(--text-color-primary);
+        background-color: var(--background-color);
         margin: 32px auto 0px auto;
     }
 
@@ -24,10 +24,10 @@ div {
             mat-icon {
                 margin: 0px;
             }
-            color: var(--text-color-primary);
+            color: var(--background-color);
 
             &:hover {
-                color: var(--text-color-primary);
+                color: var(--background-color);
             }
 
             & mat-icon.mat-icon {
