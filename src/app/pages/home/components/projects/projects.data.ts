@@ -9,17 +9,20 @@ export const Projects: Project[] = [
         icon: 'github',
         date: '2024-01-01T00:00:00.000Z',
         image: 'assets/project-images/therapynotes.png',
-        tags: [{ tag: 'React' }, { tag: 'TypeScript' }]
+        tags: [{ tag: 'React' }, { tag: 'TypeScript' }],
+        showProject: true
     },
     {
         name: 'Angular Dashboard Example',
-        description: 'A simple dashboard application built with Angular and Angular Material, featuring a variety of custom components such as cards and dashboard elements. It offers a user-friendly interface with dark mode and density change options, providing a versatile and interactive experience for managing personal finances.',
+        description:
+            'A simple dashboard application built with Angular and Angular Material, featuring a variety of custom components such as cards and dashboard elements. It offers a user-friendly interface with dark mode and density change options, providing a versatile and interactive experience for managing personal finances.',
         url: 'https://shinkhouse.github.io/angular-dashboard-example',
         sourceCode: 'https://www.github.com/shinkhouse/angular-dashboard-example',
         icon: 'github',
         date: '2023-12-30T00:00:00.000Z',
         image: 'assets/project-images/angular-dashboard-example.png',
-        tags: [{ tag: 'Angular' }, { tag: 'Angular Material' }, { tag: 'TypeScript' }]
+        tags: [{ tag: 'Angular' }, { tag: 'Angular Material' }, { tag: 'TypeScript' }],
+        showProject: true
     },
     {
         name: 'Spotify Clone',
@@ -30,7 +33,8 @@ export const Projects: Project[] = [
         icon: 'github',
         date: '2023-12-01T00:00:00.000Z',
         image: 'assets/project-images/spotify-clone.png',
-        tags: [{ tag: 'Angular' }, { tag: 'TypeScript' }, { tag: 'REST API' }, { tag: 'Spotify' }]
+        tags: [{ tag: 'Angular' }, { tag: 'TypeScript' }, { tag: 'REST API' }, { tag: 'Spotify' }],
+        showProject: true
     },
     {
         name: 'Fizzbuzz Contacts',
@@ -41,7 +45,8 @@ export const Projects: Project[] = [
         icon: 'github',
         date: '2023-12-15T00:00:00.000Z',
         image: 'assets/project-images/fizzbuzz-contacts.png',
-        tags: [{ tag: 'Angular' }, { tag: 'TypeScript' }, { tag: 'REST API' }]
+        tags: [{ tag: 'Angular' }, { tag: 'TypeScript' }, { tag: 'REST API' }],
+        showProject: true
     },
     {
         name: 'Cookbook',
@@ -52,7 +57,8 @@ export const Projects: Project[] = [
         icon: 'github',
         date: '2022-01-05T00:00:00.000Z',
         image: 'assets/project-images/cookbook.png',
-        tags: [{ tag: 'JavaScript' }, { tag: 'HTML' }, { tag: 'CSS' }]
+        tags: [{ tag: 'JavaScript' }, { tag: 'HTML' }, { tag: 'CSS' }],
+        showProject: true
     },
     {
         name: 'Microsoft To Do Clone',
@@ -63,7 +69,8 @@ export const Projects: Project[] = [
         icon: 'github',
         date: '2021-04-15T00:00:00.000Z',
         image: 'assets/project-images/react-todo.png',
-        tags: [{ tag: 'React' }, { tag: 'JavaScript' }, { tag: 'CSS' }]
+        tags: [{ tag: 'React' }, { tag: 'JavaScript' }, { tag: 'CSS' }],
+        showProject: true
     },
     {
         name: 'Giphy Search',
@@ -74,7 +81,8 @@ export const Projects: Project[] = [
         icon: 'github',
         date: '2019-01-01T00:00:00.000Z',
         image: 'assets/project-images/giphy-v2.png',
-        tags: [{ tag: 'Angular' }, { tag: 'TypeScript' }, { tag: 'REST API' }, { tag: 'Giphy' }]
+        tags: [{ tag: 'Angular' }, { tag: 'TypeScript' }, { tag: 'REST API' }, { tag: 'Giphy' }],
+        showProject: true
     },
     {
         name: 'Calculator',
@@ -84,7 +92,8 @@ export const Projects: Project[] = [
         sourceCode: 'https://github.com/shinkhouse/calculator',
         icon: 'github',
         date: '2017-01-01T00:00:00.000Z',
-        tags: [{ tag: 'JavaScript' }, { tag: 'HTML' }, { tag: 'CSS' }]
+        tags: [{ tag: 'JavaScript' }, { tag: 'HTML' }, { tag: 'CSS' }],
+        showProject: false
     },
     {
         name: 'Emoji Picker Menu',
@@ -94,7 +103,8 @@ export const Projects: Project[] = [
         sourceCode: '',
         icon: 'codepen',
         date: '2019-01-01T00:00:00.000Z',
-        tags: [{ tag: 'JavaScript' }, { tag: 'HTML' }, { tag: 'CSS' }]
+        tags: [{ tag: 'JavaScript' }, { tag: 'HTML' }, { tag: 'CSS' }],
+        showProject: false
     },
     {
         name: 'Chat Application',
@@ -104,7 +114,8 @@ export const Projects: Project[] = [
         sourceCode: 'https://github.com/shinkhouse/chat-application',
         icon: 'github',
         date: '2019-02-01T00:00:00.000Z',
-        tags: [{ tag: 'Node.js' }, { tag: 'JavaScript' }, { tag: 'HTML' }, { tag: 'CSS' }]
+        tags: [{ tag: 'Node.js' }, { tag: 'JavaScript' }, { tag: 'HTML' }, { tag: 'CSS' }],
+        showProject: false
     },
     {
         name: 'Portfolio v2',
@@ -114,7 +125,8 @@ export const Projects: Project[] = [
         url: 'https://shinkhouse.github.io/portfolio-v2',
         icon: 'github',
         date: '2016-06-01T00:00:00.000Z',
-        tags: [{ tag: 'HTML' }, { tag: 'CSS' }]
+        tags: [{ tag: 'HTML' }, { tag: 'CSS' }],
+        showProject: false
     },
     {
         name: 'Portfolio v3',
@@ -124,7 +136,8 @@ export const Projects: Project[] = [
         url: 'https://shinkhouse.github.io/portfolio-v3',
         icon: 'github',
         date: '2016-09-01T00:00:00.000Z',
-        tags: [{ tag: 'HTML' }, { tag: 'CSS' }]
+        tags: [{ tag: 'HTML' }, { tag: 'CSS' }],
+        showProject: false
     },
     {
         name: 'Portfolio v4',
@@ -134,7 +147,8 @@ export const Projects: Project[] = [
         url: 'https://shinkhouse.github.io/portfolio-v4',
         icon: 'github',
         date: '2018-01-01T00:00:00.000Z',
-        tags: [{ tag: 'HTML' }, { tag: 'CSS' }]
+        tags: [{ tag: 'HTML' }, { tag: 'CSS' }],
+        showProject: false
     },
     {
         name: 'Portfolio v6',
@@ -144,7 +158,8 @@ export const Projects: Project[] = [
         sourceCode: 'https://github.com/shinkhouse/portfolio-v6',
         icon: 'github',
         date: '2019-06-01T00:00:00.000Z',
-        tags: [{ tag: 'HTML' }, { tag: 'CSS' }]
+        tags: [{ tag: 'HTML' }, { tag: 'CSS' }],
+        showProject: false
     },
     {
         name: 'Felt Message Board',
@@ -154,7 +169,8 @@ export const Projects: Project[] = [
         sourceCode: 'https://github.com/shinkhouse/felt-message-board',
         icon: 'github',
         date: '2017-01-01T00:00:00.000Z',
-        tags: [{ tag: 'JavaScript' }, { tag: 'HTML' }, { tag: 'CSS' }]
+        tags: [{ tag: 'JavaScript' }, { tag: 'HTML' }, { tag: 'CSS' }],
+        showProject: false
     },
     {
         name: 'Weather',
@@ -164,6 +180,7 @@ export const Projects: Project[] = [
         sourceCode: 'https://github.com/shinkhouse/weather',
         icon: 'github',
         date: '2020-02-01T00:00:00.000Z',
-        tags: [{ tag: 'JavaScript' }, { tag: 'HTML' }, { tag: 'CSS' }, { tag: 'API' }]
+        tags: [{ tag: 'JavaScript' }, { tag: 'HTML' }, { tag: 'CSS' }, { tag: 'API' }],
+        showProject: false
     }
 ];

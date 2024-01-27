@@ -1,9 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+import { MatIcon } from '@angular/material/icon';
+import { NgFor } from '@angular/common';
 
 @Component({
     selector: 'shi-about-me',
     templateUrl: './about-me.component.html',
-    styleUrls: ['./about-me.component.scss']
+    styleUrls: ['./about-me.component.scss'],
+    standalone: true,
+    imports: [NgFor, MatIcon]
 })
 export class AboutMeComponent implements OnInit {
     constructor() {}

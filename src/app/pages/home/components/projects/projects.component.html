@@ -8,9 +8,11 @@
     </header>
     <div class="projects-container">
         <div class="projects" *ngIf="!showTable">
-            <div class="project" *ngFor="let project of projects">
-                <shi-portfolio-card [project]="project" fxFlex fxLayout="column"></shi-portfolio-card>
-            </div>
+            <ng-container *ngFor="let project of projects">
+                <div class="project" *ngIf="project.showProject">
+                    <shi-portfolio-card [project]="project"></shi-portfolio-card>
+                </div>
+            </ng-container>
         </div>
         <div class="projects-table" *ngIf="showTable">
             <table>

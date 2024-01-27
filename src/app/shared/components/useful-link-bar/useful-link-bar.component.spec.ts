@@ -8,8 +8,8 @@ describe('UsefulLinkBarComponent', () => {
 
     beforeEach(waitForAsync(() => {
         TestBed.configureTestingModule({
-            declarations: [UsefulLinkBarComponent]
-        }).compileComponents();
+    imports: [UsefulLinkBarComponent]
+}).compileComponents();
     }));
 
     beforeEach(() => {

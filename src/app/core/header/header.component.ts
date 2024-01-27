@@ -1,9 +1,13 @@
 import { Component, HostListener, OnInit, Renderer2 } from '@angular/core';
+import { NgFor } from '@angular/common';
+import { FlexModule } from '@angular/flex-layout/flex';
 
 @Component({
     selector: 'shi-header',
     templateUrl: './header.component.html',
-    styleUrls: ['./header.component.scss']
+    styleUrls: ['./header.component.scss'],
+    standalone: true,
+    imports: [FlexModule, NgFor]
 })
 export class HeaderComponent implements OnInit {
     constructor(private renderer: Renderer2) {}
@@ -15,7 +19,6 @@ export class HeaderComponent implements OnInit {
     @HostListener('window:scroll', [])
     onWindowScroll() {
         const currentScrollPos = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        console.log(currentScrollPos, this.scrollPosition, currentScrollPos < this.scrollPosition);
         if (currentScrollPos < this.scrollPosition) {
             // User is scrolling up
             this.hideHeader = false;

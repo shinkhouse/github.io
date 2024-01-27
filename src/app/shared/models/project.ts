@@ -7,6 +7,7 @@ export interface Project {
     date: string;
     tags: Tag[];
     image?: string;
+    showProject: boolean;
 }
 export interface Tag {
     tag: string;

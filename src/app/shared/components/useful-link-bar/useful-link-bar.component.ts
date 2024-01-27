@@ -1,10 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { Resource } from '../../models/resource';
+import { MatIcon } from '@angular/material/icon';
+import { NgFor } from '@angular/common';
 
 @Component({
     selector: 'shi-useful-link-bar',
     templateUrl: './useful-link-bar.component.html',
-    styleUrls: ['./useful-link-bar.component.scss']
+    styleUrls: ['./useful-link-bar.component.scss'],
+    standalone: true,
+    imports: [NgFor, MatIcon]
 })
 export class UsefulLinkBarComponent implements OnInit {
     constructor() {}

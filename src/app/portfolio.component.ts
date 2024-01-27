@@ -1,11 +1,19 @@
 import { Component } from '@angular/core';
-import { MatIconRegistry } from '@angular/material/icon';
+import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
+import { UsefulLinkBarComponent } from './shared/components/useful-link-bar/useful-link-bar.component';
+import { FooterComponent } from './core/footer/footer.component';
+import { HeroComponent } from './pages/home/components/hero/hero.component';
+import { AboutMeComponent } from './pages/home/components/about-me/about-me.component';
+import { ProjectsComponent } from './pages/home/components/projects/projects.component';
+import { HeaderComponent } from './core/header/header.component';
 
 @Component({
     selector: 'shi-root',
     templateUrl: './portfolio.component.html',
-    styleUrls: ['./portfolio.component.scss']
+    styleUrls: ['./portfolio.component.scss'],
+    imports: [HeaderComponent, UsefulLinkBarComponent, FooterComponent, HeroComponent, AboutMeComponent, ProjectsComponent, MatIconModule],
+    standalone: true
 })
 export class AppComponent {
     constructor(
