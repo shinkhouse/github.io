@@ -9,7 +9,7 @@ export const Projects: Project[] = [
         sourceCode: '',
         icon: 'github',
         date: '2024-01-25T00:00:00.000Z',
-        image: 'assets/project-images/daily-affirmations.png',
+        image: 'assets/project-images/alexa-logo.png',
         tags: [{ tag: 'Node.js' }, { tag: 'Alexa Skills Kit' }],
         showProject: true
     },
