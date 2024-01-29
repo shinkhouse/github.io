@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1706553703464,
+  "timestamp": 1706556448015,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main-ZXPKX45H.js",
+        "/main-BIGSTC3N.js",
         "/manifest.webmanifest",
         "/polyfills-MAT6ZQ6R.js",
         "/styles-F43ZFNHA.css"
@@ -45,6 +45,7 @@
         "/assets/icons/logo-96.png",
         "/assets/icons/portfolio-logo.svg",
         "/assets/icons/twitter.svg",
+        "/assets/project-images/alexa-logo.png",
         "/assets/project-images/angular-dashboard-example.png",
         "/assets/project-images/cookbook.png",
         "/assets/project-images/dictionary-app.png",
@@ -85,6 +86,7 @@
     "/assets/icons/logo-96.png": "48d349b88b48157509cb0d6ef09eedf6efe20f98",
     "/assets/icons/portfolio-logo.svg": "1e32aebe9f1b3cee810eac4401e2c1b2dc563324",
     "/assets/icons/twitter.svg": "f98ae5763bac8e178b70acef86a505708c4a5f83",
+    "/assets/project-images/alexa-logo.png": "92806d846a9cf3a306dd58e9ca4b5f8ec8f94a0b",
     "/assets/project-images/angular-dashboard-example.png": "a0f678eba16de6cedc12a11b77e47e2fee0969e8",
     "/assets/project-images/cookbook.png": "b44cb2170cabbd72a84b7c831caa4cc1a9a4d2c0",
     "/assets/project-images/dictionary-app.png": "4eb916d168524340b887bd695befe8c73b109084",
@@ -101,8 +103,8 @@
     "/assets/styles/partials/_layout.scss": "87a5fb3fec7a1cfb32307a26b4e2a44479811274",
     "/assets/styles/partials/_link.scss": "3dbc0307a607c29c519b08b72a14a8920db4b08a",
     "/assets/styles/partials/_theme.scss": "b238ca6247bbc8933a20fddc53dcf24538c89fcf",
-    "/index.html": "3f57243906ecce6507605a545b1eb1c7936a44d2",
-    "/main-ZXPKX45H.js": "a2cc0ad999cad287a2ee499050c47b59a924ef96",
+    "/index.html": "e26edd763023f24416139a52bbc2bbfa15b1eabf",
+    "/main-BIGSTC3N.js": "39c5865b0a8eb862d8327d472df9b67c7d00abbf",
     "/manifest.webmanifest": "e9a63dc37a012bf9c93022b76dcc698ca3a32766",
     "/polyfills-MAT6ZQ6R.js": "e5989930c0f0168f48807244c3c98b197092c2bd",
     "/styles-F43ZFNHA.css": "5f6ef3b98f8646cfb39940ab93ed13e2f29145c1"
