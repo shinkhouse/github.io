@@ -2,6 +2,18 @@ import { Project } from 'src/app/shared/models/project';
 
 export const Projects: Project[] = [
     {
+        name: 'Daily Affirmations Alexa Skill',
+        description:
+            'I built this skill originally in college and have continued to improve on it. It is an Alexa skill for getting daily affirmations. Users can ask Alexa for an affirmation, and Alexa will respond with a positive affirmation. The skill is built using Node.js and the Alexa Skills Kit SDK.',
+        url: 'https://www.amazon.com/dp/B07K14RC3J/',
+        sourceCode: '',
+        icon: 'github',
+        date: '2024-01-25T00:00:00.000Z',
+        image: 'assets/project-images/daily-affirmations.png',
+        tags: [{ tag: 'Node.js' }, { tag: 'Alexa Skills Kit' }],
+        showProject: true
+    },
+    {
         name: 'HeartMind Therapy Notes',
         description:
             'HeartMind Therapy Notes app is a React-based application designed to streamline the process of creating mental health therapy notes. It features a quick form for therapists to fill out, which then automatically generates a comprehensive narrative note, enhancing efficiency and accuracy in documentation.',
