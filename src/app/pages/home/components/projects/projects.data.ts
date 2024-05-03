@@ -61,6 +61,18 @@ export const Projects: Project[] = [
         showProject: true
     },
     {
+        name: 'Send Feedback',
+        description:
+            'A clone of Google`s "Send Feedback" drawer, this feedback collection application allows users to submit feedback on a product or service, along with a screenshot, to report an issue or request a feature on a platform.',
+        url: 'https://shinkhouse.github.io/send-feedback-v2',
+        sourceCode: 'https://github.com/shinkhouse/send-feedback-v2',
+        icon: 'github',
+        date: '2023-11-01T00:00:00.000Z',
+        image: 'assets/project-images/send-feedback-v2.png',
+        tags: [{ tag: 'Angular' }, { tag: 'TypeScript' } ],
+        showProject: true
+    },
+    {
         name: 'Cookbook',
         description:
             'A starter application for managing recipes and cooking instructions. Users can create, view, and delete recipes, as well as search for recipes based on ingredients or categories. The app is built using JavaScript, HTML, and CSS.',
