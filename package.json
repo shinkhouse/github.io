@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --configuration production --base-href=/portfolio/"
+    "deployment-build": "ng build --configuration production --base-href=/portfolio/",
+    "deploy": "ng deploy"
   },
   "private": true,
   "dependencies": {
